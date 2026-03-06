@@ -1,0 +1,53 @@
+# ========================
+# Java / Spring Boot
+# ========================
+target/
+*.class
+*.jar
+*.war
+*.log
+*.iml
+
+# ========================
+# Maven
+# ========================
+apache-maven-*/
+maven.zip
+.mvn/wrapper/maven-wrapper.jar
+
+# ========================
+# IDE / Editor
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ========================
+# Frontend (Node / Vite)
+# ========================
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+# ========================
+# OS Files
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================
+# Environment / Secrets
+# ========================
+.env
+*.env
+
+# ========================
+# Misc
+# ========================
+Projects/
+dump/
+Gemini_Generated_Image_*.png
